@@ -1,0 +1,11 @@
+{
+  "name": "vue-shopping-h5",
+  "version": "1.0.0",
+  "description": "> 这个 H5 项目，使用了 Vue+koa2+Mongodb 的技术，完成移动端商城的基本功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
