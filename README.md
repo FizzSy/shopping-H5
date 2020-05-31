@@ -6,6 +6,6 @@
 
 ## 项目截图
 
-![Image text](https://kanike.com.cn/resource/desc1.png)
-![Image text](https://kanike.com.cn/resource/desc2.png)
-![Image text](https://kanike.com.cn/resource/desc3.png)
+![Image text](https://kaneki.com.cn/resource/desc1.png)
+![Image text](https://kaneki.com.cn/resource/desc2.png)
+![Image text](https://kaneki.com.cn/resource/desc3.png)
