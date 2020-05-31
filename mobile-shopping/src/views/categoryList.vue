@@ -176,6 +176,7 @@ export default {
         },
         //跳转到商品详细页
         goGoodsInfo(id) {
+            console.log(id)
             this.$router.push({ name: 'goods', params: { goodsId: id } })
         }
 

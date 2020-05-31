@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="padding-bottom:110px">
         <div class="navbar-div">
             <van-nav-bar title="商品详情" left-text="返回" left-arrow @click-left="onClickLeft" />
         </div>
@@ -40,6 +40,7 @@ import url from '@/serviceAPI.config.js'
 import { Toast } from 'vant'
 import { toMoney } from '@/filter/moneyFilter.js'
 export default {
+    name: 'goods-detail',
     data() {
         return {
             goodsId: '',
@@ -53,7 +54,6 @@ export default {
     },
     created() {
         this.goodsId = this.$route.query.goodsId ? this.$route.query.goodsId : this.$route.params.goodsId
-        console.log(this.goodsId)
         this.getInfo()
     },
     methods: {
@@ -65,7 +65,6 @@ export default {
                 } else {
                     Toast('服务器错误，数据获取失败')
                 }
-                console.log(this.goodsInfo)
             })
                 .catch(error => {
                     console.log(error)
@@ -80,8 +79,6 @@ export default {
             //localStorage.removeItem('cartInfo')
             let cartInfo = localStorage.cartInfo ? JSON.parse(localStorage.cartInfo) : []
             let isHaveGoods = cartInfo.find(cart => cart.goodsId == this.goodsId)
-            console.log(isHaveGoods)
-            console.log(this.goodsInfo)
             if (!isHaveGoods) {
                 let newGoodsInfo = {
                     goodsId: this.goodsInfo.ID,
@@ -117,7 +114,7 @@ export default {
 }
 .goods-bottom {
     position: fixed;
-    bottom: 0px;
+    bottom: 50px;
     left: 0px;
     background-color: #fff;
     width: 100%;

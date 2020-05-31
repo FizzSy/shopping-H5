@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="main-div">
-            <keep-alive>
+            <keep-alive exclude="goods-detail">
                 <router-view />
             </keep-alive>
         </div>

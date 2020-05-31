@@ -1,5 +1,5 @@
 // const LOCALURL = "http://localhost:3000";
-const LOCALURL = process.env.NODE_ENV === "development" ? "http://location:1003" : "//api.kaneki.com.cn";
+const LOCALURL = process.env.NODE_ENV === "development" ? "http://localhost:1003" : "//api.kaneki.com.cn";
 const URL = {
     registerUser: LOCALURL + "/shopping/user/register", //用户注册接口
     login: LOCALURL + "/shopping/user/login", //用户登录接口
