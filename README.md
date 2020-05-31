@@ -6,6 +6,6 @@
 
 ## 项目截图
 
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/.png)
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/koa002.png)
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/koa003.png)
+![Image text](https://kanike.com.cn/resource/desc1.png)
+![Image text](https://kanike.com.cn/resource/desc2.png)
+![Image text](https://kanike.com.cn/resource/desc3.png)
