@@ -16,6 +16,6 @@ app.use(apiRouter.routes()).use(router.allowedMethods());
     await connect();
 })();
 
-app.listen(3000, () => {
+app.listen(1003, () => {
     console.log("项目启动");
 });
