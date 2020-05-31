@@ -1,26 +1,28 @@
 {
-  "name": "node-shopping",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^2.0.1",
-    "glob": "^7.1.2",
-    "koa": "^2.5.1",
-    "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0",
-    "koa2-cors": "^2.0.5",
-    "mongoose": "^5.1.2"
-  },
-  "devDependencies": {
-    "bcrypt-nodejs": "^0.0.3",
-    "glob": "^7.1.6",
-    "koa2-cors": "^2.0.6"
-  }
+    "name": "node-shopping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pm2": "pm2 start npm -f -- run start",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^2.0.1",
+        "glob": "^7.1.2",
+        "koa": "^2.5.1",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "koa2-cors": "^2.0.5",
+        "mongoose": "^5.1.2"
+    },
+    "devDependencies": {
+        "bcrypt-nodejs": "^0.0.3",
+        "glob": "^7.1.6",
+        "koa2-cors": "^2.0.6"
+    }
 }

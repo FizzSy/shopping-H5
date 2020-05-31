@@ -1,5 +1,7 @@
 const Router = require("koa-router");
-const router = new Router();
+const router = new Router({
+    prefix: "/shopping",
+});
 const user = require("./user");
 const goods = require("./goods");
 
