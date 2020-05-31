@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const db = "mongodb://localhost/shopping";
+// const db = "mongodb://localhost/shopping";
+const db = "mongodb+srv://test-manage:qweasd123456@cluster0-x2az8.mongodb.net/shopping?retryWrites=true&w=majority";
 const glob = require("glob");
 const { resolve } = require("path");
 let maxConnectTimes = 0;
