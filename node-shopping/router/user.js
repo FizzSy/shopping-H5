@@ -3,6 +3,10 @@ const router = new Router();
 const mongoose = require("mongoose");
 let User = mongoose.model("User");
 
+router.get("/", async (ctx) => {
+    ctx.body = "hello world";
+});
+
 router.post("/register", async (ctx) => {
     let newUser = new User({
         userName: ctx.request.body.userName,
